@@ -1,0 +1,84 @@
+@keyframes example {
+    0%   {transform: scale(1.5) rotatez(-20deg);
+        rotate: x 10deg;
+        -webkit-transform: scale(1.5) rotatez(-20deg);
+        -moz-transform: scale(1.5) rotatez(-20deg);
+        -ms-transform: scale(1.5) rotatez(-20deg);
+        -o-transform: scale(1.5) rotatez(-20deg);
+    }
+    
+    100%  { transform: scale(1) rotatez(0deg); 
+        rotate: x 5deg; -webkit-transform: scale(1) rotatez(5deg);
+        -moz-transform: scale(1) rotatez(5deg); 
+        -ms-transform: scale(1) rotatez(5deg); 
+        -o-transform: scale(1) rotatez(5deg);
+}}
+
+
+
+
+
+@keyframes right_to_left{
+    0%{
+        transform: translatex(50px);
+        -webkit-transform: translatex(50px);
+        -moz-transform: translatex(50px);
+        -ms-transform: translatex(50px);
+        -o-transform: translatex(50px);
+}
+100%{
+    transform: translate(0px);
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+}
+}
+@keyframes left_to_right{
+    0%{
+        transform: translatex(-50px);
+        -webkit-transform: translatex(-50px);
+        -moz-transform: translatex(-50px);
+        -ms-transform: translatex(-50px);
+        -o-transform: translatex(-50px);
+}
+100%{
+    transform: translate(0px);
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+}
+}
+@keyframes up_to_down{
+    0%{
+        transform: translatey(-50px);
+        -webkit-transform: translatey(-50px);
+        -moz-transform: translatey(-50px);
+        -ms-transform: translatey(-50px);
+        -o-transform: translatey(-50px);
+}
+100%{
+    transform: translatey(0px);
+    -webkit-transform: translatey(0px);
+    -moz-transform: translatey(0px);
+    -ms-transform: translatey(0px);
+    -o-transform: translatey(0px);
+}
+}
+@keyframes down_to_up{
+    0%{
+        transform: translatey(50px);
+        -webkit-transform: translatey(50px);
+        -moz-transform: translatey(50px);
+        -ms-transform: translatey(50px);
+        -o-transform: translatey(50px);
+}
+100%{
+    transform: translatey(0px);
+    -webkit-transform: translatey(0px);
+    -moz-transform: translatey(0px);
+    -ms-transform: translatey(0px);
+    -o-transform: translatey(0px);
+}
+}
